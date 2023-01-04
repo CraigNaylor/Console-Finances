@@ -94,4 +94,10 @@ var totalMonths = finances.length;
 console.log(`Total months: ${totalMonths}`);
 
 
+//display result to console
+console.log(`Net total: ${netTotal}`);
 
+console.log(Object.keys(finances))
+
+console.log(Object.values(finances))
+// var months = console.log(Object.keys(finances))
