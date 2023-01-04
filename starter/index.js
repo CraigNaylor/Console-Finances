@@ -1,3 +1,4 @@
+//This is the finances array
 var finances = [
 ['Jan-2010', 867884],
 ['Feb-2010', 984655],
@@ -86,3 +87,11 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+//Line 92 uses script to count the total amount of months, i.e. the length of the finances array
+var totalMonths = finances.length;
+//displays the total amount of months in the console (result of above code)
+console.log(`Total months: ${totalMonths}`);
+
+
+
