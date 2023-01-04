@@ -93,11 +93,11 @@ var totalMonths = finances.length;
 //displays the total amount of months in the console (result of above code)
 console.log(`Total months: ${totalMonths}`);
 
-
+//This calculates the net total amount of profit/losses over the period by looping through the finances array and adding up the profit and loss values.
+var netTotal = 0;
+for (var record of finances) {
+  netTotal += record[1];
+}
 //display result to console
-console.log(`Net total: ${netTotal}`);
+console.log(`Net total: $ ${netTotal}`);
 
-console.log(Object.keys(finances))
-
-console.log(Object.values(finances))
-// var months = console.log(Object.keys(finances))
